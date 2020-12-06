@@ -26,6 +26,17 @@ At the top, you wil see a components folder, i created this folder myself to put
 
 So click on the Components folder, you will see a folder named Layout and Pages.Now, My lAYOUT components consist of the header and footer. Now, One thing about this component style is that you do not need to write the code for a header or footer multiple times, just write it once, and then import the component to where ever you want to use it in another component.
 
+Below the Layout Folder, you have the pages Folder, the pages folder contains  Article1.js up to Article8.js, these Article1.js till Article8.js contains our codes for the articles we have on the web app.
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
