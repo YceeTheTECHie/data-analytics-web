@@ -30,9 +30,17 @@ Below the Layout Folder, you have the pages Folder, the pages folder contains  A
 
 
 
+After the Pages folder, we have files like AboutUs.js,Articles.js, ContactUs.js, HomePage.js,Main.js,etc.
 
+The AboutUs.js contains the codes neccessary to display the about us section on the hompage of our app.
 
+The Articles.js contains the codes neccessary to display the collections of articles. You can see the file output after clicking resources on the nav or footer of the site
 
+The ContactUs.js contains the codes neccessary to display the Contact US section on the hompage of our app.
+
+The Main.js contains the codes necessary to display the first section you see when you go to the app
+
+The HomePage.js is a file that houses AboutUs.js,Articles.js, ContactUs.js and main.js files
 
 
 
