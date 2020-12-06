@@ -89,7 +89,21 @@ On lINE 3, I imported Link from react-router-dom, because I have a button that s
 At the end of the file, its  been exported.
 
 
+4. AboutUs.js
 
+On Line 1, React was imported, then on Line 2, the image needed was imported from the images folder.
+
+Then the component was created and exported at the end of the file.
+
+
+5. ContactUs.js :
+I imported react on Line 1 as usual, I didnt need any images here because this component displays the contact us form on the homepage of the site and  we did not need any image there.
+
+Now, inside the Component, I created a function on line 4-7 named handleSubmit, this function is invoked when the send message button is clicked. The function when invoked creates an alert and it is shown on the page.
+
+on Line 18, the form has a property named onSubmit and it is equated to the name of the function handleSubmit I created above. This is what makes the alert pop up when the button is clicked.
+
+On line 52, i exported the component as I need to import it other components
 
 
 
