@@ -49,7 +49,7 @@ const Articles = () => (
                             <img src={dataways} className="card-img-top" alt="dataways"/>
                         <div className="card-body">
                             <h6 className="headline card-title">Unlock The Values Of Data With Data Analytics</h6>
-                            
+                        
                                 <Link to="/article4" className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</Link>
                             </div>
                             </div>

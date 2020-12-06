@@ -322,7 +322,7 @@ responsive styles for iphone x */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
 
   .card{
-    padding-left:15%;
+    padding-left:16%;
   }
 
 .headline{
@@ -333,4 +333,8 @@ responsive styles for iphone x */
   /* padding-top: 4em; */
 }
 
+.card-body{
+width:130% !important;
+/* text-align: center; */
+}
 }

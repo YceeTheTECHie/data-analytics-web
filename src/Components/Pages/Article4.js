@@ -45,7 +45,7 @@ This means less money wasted as well as improved results from your campaigns and
 
                 <ul className="pager">
                     <li className="previous"><Link to="/article3">← Older</Link></li>
-                    <li className="next"><Link to="/article2">Newer →</Link></li>
+                    <li className="next"><Link to="/article5">Newer →</Link></li>
                 </ul>
 
     </div>

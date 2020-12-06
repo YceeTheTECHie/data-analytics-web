@@ -1,3 +1,36 @@
+Hi, so lets start with the file structures. 
+On the left hand side, you have
+
+the build folder
+the node_modules
+the public folder
+the src folder (source folder)
+the .gitignore file
+the package-lock.json file
+the package.json file
+and the readme.md file
+
+
+
+The build folder
+
+the build folder contains the optimized build version of the app that would be uploaded to a web server. It is derived by running "npm run build" command
+
+the node_modules folder
+this contains the neccessary files and scripts needed to run the app. You can find out more by opening the folder. but remember that incorrect changes to any code in this folder could raise an error in your code.
+
+the src folder
+this houses our source codes for the app we are building.
+read https://create-react-app.dev/docs/folder-structure/ to know more about folder structures in react
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
