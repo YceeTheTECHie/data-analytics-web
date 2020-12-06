@@ -53,12 +53,24 @@ Then we have the Index.js file, this file renders out all the javascript codes w
 Then service workers,Service workers are scripts that are run by the browser of a client. They do not have any direct relationship with the DOM. They provide many out of the box network-related features. Service workers are the foundation of building an offline experience.
 We dont need it here, its just part of the boilerplate code thats gets generated when you use "create react app" command to create a react app.
 
-Then we have .gitignore files, this file consists of name of folders or files that we do not want to include in pur github repo. when a file is added in the .gitignore file, whenever that project is been pushed to a github repo, such file wont be present in the github. One advantage of this is that, we can keep a file where we save some credentials for the app in a .gitignore, so that it doesnt go live on github.
+Then we have .gitignore files, this file consists of name of folders or files that we do not want to include in our github repo. when a file is added in the .gitignore file, whenever that project is been pushed to a github repo, such file wont be present in the github. One advantage of this is that, we can keep a file where we save some credentials for the app in a .gitignore, so that it doesnt go live on github.
 
 Then, the package-lock.json is automatically generated for any operations where npm modifies either the node_modules tree, or package.json. It describes the exact tree that was generated, such that subsequent installs are able to generate identical trees, regardless of intermediate dependency updates.
 
 
 Then the package.json is a file, that gives  us information about the project, like the name of the project,the version,the scripts runnable in the project and also mentions other libaries that are used in the project.
+
+
+
+Now, lets dive into all the components in the src folder.
+
+1. Navbar Component : 
+
+On Line 1, we imported React from the 'react
+ library. Now this import can be placed at any line as long as it is imported before you create a component declaratiom. but in most apps, it  is always imported as the first thing.
+
+ On the second line, i imported "Link" from the 'react-router-dom' library. Now notice how it is been imported, Link is kept in curly braces because the "Link" we are importing is not the only toolkit present in the react-router-dodm libary, we have some other toolkits like BrowserRouter, Switch,etc present in the react-router-dom too and we used them in our App.js file. Now, the react-router-dom is a library that helps to to navigate between components in a react app. so instead of using the <a href="#"></a>
+as we do in our traditional html file, we use <Link to =""></Link>
 
 
 

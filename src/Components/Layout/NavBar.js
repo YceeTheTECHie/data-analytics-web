@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';	
-const Navbar = ({onClick}) => (
+const Navbar = () => (
 
   <header>
 		<nav id="main-navbar" class="navbar  navbar-fixed-top">
