@@ -133,8 +133,43 @@ I displayed the components we have imported by  doing this <WhattheComponentName
 
 8. Main.js
 
+On the Line 1, I imported React,
+line 2. imported the image.
+then on Line 3, I created the component as in an arrow function.
+
+on line 16, the component is being exported.
+
+9. App.css: contains all css styles
+
+10. App.js
+I imported React, on line 1
+line 2, i imported App.css to make sure our component gets styled accordingly.
+line 3, i imported the Navbar component,
+on line 4, i imported the Articles component,
+then on line 5-23, i imported Article1.js - Article8.js files
+Line 13, i imported the HomePage component.
+line 14, i imported the footer component.
+lins 15, i imported BrowserRouter,notice here that import BrowserRouter as Router, what I mean is that I want to rename BrowserRouter as Router cos the name is lengthy some way.
+
+I also imported switch and route from 'react-router-dom'
+
+so on line 18, i created the app component as in an arrow function, then i returned
+all the components enclosed in a <Router></Router> tag, what this does is to make sure all our components are being routed.
+
+now, the switch tag consists of routes and the components to display on such routes.
+
+now, on line 13 when we navigate to our app url then with a forward slash, it takes us to the homepage component. here we added "exact" so that the homepage component shows up  only when you visit the app url or you visit the app url the a forward slash
+
+on line 24 when we navigate to our app url then with a forward slash articles, it takes us to the articles  component and so on.
 
 
+At the end of the routes, I exported the App.js component.
+
+11. Index.js
+This file is the entry point in our react application and if you check line 7,it rendered the </App> component which contains all our files.
+
+
+That's All! 
 
 
 
