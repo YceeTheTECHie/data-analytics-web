@@ -42,6 +42,13 @@ The Main.js contains the codes necessary to display the first section you see wh
 
 The HomePage.js is a file that houses AboutUs.js,Articles.js, ContactUs.js and main.js files
 
+Below that you have an "images" folder which is responsible for the housing of all the images we used throughout the project.
+
+After that, we have the App.css files, this file contains all our stylings (css) for the whole project.
+
+Then we have App.js, this file is the root entry point in a react component, it houses all other components that are used in a react app. 
+
+
 
 
 

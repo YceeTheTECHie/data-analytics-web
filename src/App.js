@@ -13,23 +13,13 @@ import Article8 from './Components/Pages/Article8';
 import HomePage from './Components/HomePage';
 import Footer from './Components/Layout/Footer';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import { Component } from 'react';
 
 
-
-class App extends Component {
-  bottomRef = React.createRef();
-
-   onClick = () => {
-    this.bottomRef.current.scrollIntoView();
-  };
-  render() { 
-    return (
-      <Router>
-{/* <Article1/> */}
-      <Navbar onClick ={this.onClick}  />
+const App = () => {
+  return (
+         <Router>
+      <Navbar/>
       <Switch>
-      
         <Route exact path="/" component={HomePage} /> 
         <Route path="/articles" component={Articles} /> 
         <Route path="/article1" component={Article1} /> 
@@ -45,9 +35,7 @@ class App extends Component {
       
         <Footer />
     </Router>
-
-    );
-  }
+  );
 }
  
 export default App;
