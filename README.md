@@ -72,6 +72,36 @@ On Line 1, we imported React from the 'react
  On the second line, i imported "Link" from the 'react-router-dom' library. Now notice how it is been imported, Link is kept in curly braces because the "Link" we are importing is not the only toolkit present in the react-router-dodm libary, we have some other toolkits like BrowserRouter, Switch,etc present in the react-router-dom too and we used them in our App.js file. Now, the react-router-dom is a library that helps to to navigate between components in a react app. so instead of using the <a href="#"></a>
 as we do in our traditional html file, we use <Link to =""></Link>
 
+In Line 3 downward, we created a Navbar component with an arrow function and in the body of the function, we wrote  the codes for the navbar with semantic html (i mean the header and nav tahs i used) and some bootstrap grid system classes. Read more about bootstrap grid here https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp.
+At the end of the component, i wrote "export default NavBar". I did that because I know I will have to import the NavBar file in other components. If you dont export your component before importing them, you'd get an error.
+
+
+2. Footer component:
+
+This component is identical to the navbar component, so I am going to skip that.
+
+in Pages folder, we have
+3. Articles.js - Article8.js :
+
+On Line 1,I imported React,
+On Line 2 , I imported the image related to the article from the images folder.
+On lINE 3, I imported Link from react-router-dom, because I have a button that says "newer" which i want to take users to the article2 when clicked upon.
+At the end of the file, its  been exported.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
