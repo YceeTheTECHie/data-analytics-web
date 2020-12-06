@@ -1,4 +1,4 @@
-Hi, so lets start with the file structures. 
+Hi, so lets start with the file structures.
 On the left hand side, you have
 
 the build folder
@@ -9,8 +9,6 @@ the .gitignore file
 the package-lock.json file
 the package.json file
 and the readme.md file
-
-
 
 The build folder
 
@@ -23,13 +21,10 @@ the src folder
 this houses our source codes for the app we are building.
 read https://create-react-app.dev/docs/folder-structure/ to know more about folder structures in react
 
+Now, lets open the src folder,
+At the top, you wil see a components folder, i created this folder myself to put in related components together, In react.js, every part of a web app is a component, For example, assuming we decided to build our own facebook in react, we would have the user profile component, footer component, posts component,etc.
 
-
-
-
-
-
-
+So click on the Components folder, you will see a folder named Layout and Pages.Now, My lAYOUT components consist of the header and footer. Now, One thing about this component style is that you do not need to write the code for a header or footer multiple times, just write it once, and then import the component to where ever you want to use it in another component.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
