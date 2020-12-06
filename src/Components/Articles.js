@@ -39,13 +39,13 @@ const Articles = () => (
                 <div className="col-sm-3">
                                         <div className="card">
                             <img src={datajob} className="card-img-top" alt="datajob"/>
-                        <div class="card-body">
+                        <div className="card-body">
                             <h6 className="headline card-title">11 High-Paying Data Analytics Jobs in 2020</h6>
                             
                                 <Link to="/article3" className="card-text">There’s never been a better time to learn data analytics and enter the workforce as a data scientist...</Link>
                             </div>
                             </div>
-                            <div class="card" >
+                            <div className="card" >
                             <img src={dataways} className="card-img-top" alt="dataways"/>
                         <div className="card-body">
                             <h6 className="headline card-title">Unlock The Values Of Data With Data Analytics</h6>

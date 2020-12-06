@@ -95,23 +95,43 @@ On Line 1, React was imported, then on Line 2, the image needed was imported fro
 
 Then the component was created and exported at the end of the file.
 
+5. Articles.js :
+on Line 1, React is imported
+on Line 2 to Line 10, I imported all the images needed. (This component is responsible for what you see when you click the resources link, there we have a  card of images,headlines and text)
 
-5. ContactUs.js :
+On Line 11, I imported Link from 'react-router-dom' because I want the app to take users to the detail view of each article after they have clicked on a text in this component.
+
+So, as usual, I created the component as in an arrow function, on Line 14, I use React.Fragment, now React.fragment is just a way to group a collection of other html elements, you can use <div></div>,the only downside of using <div></div> is that it moves one line below.
+
+
+So, on line 104, I exported the component.
+
+
+
+6. ContactUs.js :
 I imported react on Line 1 as usual, I didnt need any images here because this component displays the contact us form on the homepage of the site and  we did not need any image there.
 
 Now, inside the Component, I created a function on line 4-7 named handleSubmit, this function is invoked when the send message button is clicked. The function when invoked creates an alert and it is shown on the page.
 
 on Line 18, the form has a property named onSubmit and it is equated to the name of the function handleSubmit I created above. This is what makes the alert pop up when the button is clicked.
 
-On line 52, i exported the component as I need to import it other components
+On line 52, i exported the component as I need to import it other components.
 
 
+7. HomePage.js :
+
+on line 1, i imported React from 'react
+
+then i imported the Main component
+on line 3, i imported the AboutUs component
+on line 4 I imported the ContactUs component.
+
+on Line 6, I created the HomePage component as in arrow function, 
+then on line 9 - 12, 
+I displayed the components we have imported by  doing this <WhattheComponentNameIs/>
 
 
-
-
-
-
+8. Main.js
 
 
 
